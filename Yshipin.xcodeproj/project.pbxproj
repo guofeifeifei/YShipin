@@ -11,10 +11,25 @@
 		4D033A8F1F8F419700D1E75D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D033A8E1F8F419700D1E75D /* ViewController.m */; };
 		4D033A921F8F419700D1E75D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D033A901F8F419700D1E75D /* Main.storyboard */; };
 		4D033A941F8F419700D1E75D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D033A931F8F419700D1E75D /* Assets.xcassets */; };
-		4D033A971F8F419700D1E75D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D033A951F8F419700D1E75D /* LaunchScreen.storyboard */; };
 		4D033A9A1F8F419700D1E75D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D033A991F8F419700D1E75D /* main.m */; };
 		4D033AA41F8F419700D1E75D /* YshipinTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D033AA31F8F419700D1E75D /* YshipinTests.m */; };
 		4D033AAF1F8F419700D1E75D /* YshipinUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D033AAE1F8F419700D1E75D /* YshipinUITests.m */; };
+		4D033B3A1F8F474400D1E75D /* GFProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D033B381F8F474400D1E75D /* GFProgressHUD.m */; };
+		4D3A092D1F99EFE1003987D7 /* SignView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D3A092B1F99EFE1003987D7 /* SignView.m */; };
+		4D3A093C1F99F0D5003987D7 /* HMScanerCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D3A09301F99F0D5003987D7 /* HMScanerCardViewController.m */; };
+		4D3A093D1F99F0D5003987D7 /* HMScanner.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4D3A09311F99F0D5003987D7 /* HMScanner.bundle */; };
+		4D3A093E1F99F0D5003987D7 /* HMScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D3A09331F99F0D5003987D7 /* HMScanner.m */; };
+		4D3A093F1F99F0D5003987D7 /* HMScannerBorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D3A09351F99F0D5003987D7 /* HMScannerBorder.m */; };
+		4D3A09401F99F0D5003987D7 /* HMScannerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D3A09371F99F0D5003987D7 /* HMScannerController.m */; };
+		4D3A09411F99F0D5003987D7 /* HMScannerMaskView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D3A09391F99F0D5003987D7 /* HMScannerMaskView.m */; };
+		4D3A09421F99F0D5003987D7 /* HMScannerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D3A093B1F99F0D5003987D7 /* HMScannerViewController.m */; };
+		4D3E231D1FB0205700542517 /* WilddogVideoCall.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D3E231C1FB0205700542517 /* WilddogVideoCall.framework */; };
+		4D3E231F1FB0206A00542517 /* WilddogVideoBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D3E231E1FB0206A00542517 /* WilddogVideoBase.framework */; };
+		4D3E23201FB0207200542517 /* WebRTC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D033B3C1F8F5ADC00D1E75D /* WebRTC.framework */; };
+		4D3E23221FB0208000542517 /* WilddogCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D3E23211FB0208000542517 /* WilddogCore.framework */; };
+		4D3E23241FB0208900542517 /* WilddogAuth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D3E23231FB0208900542517 /* WilddogAuth.framework */; };
+		4D72BE6B1F9770B900DBDEB3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D72BE691F9770B900DBDEB3 /* LaunchScreen.storyboard */; };
+		FE91ED5AE7BD841FF75C99C7 /* libPods-Yshipin.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 36E5A0ED0121248FA4452C5F /* libPods-Yshipin.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +50,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		36E5A0ED0121248FA4452C5F /* libPods-Yshipin.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Yshipin.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E9E5B922D2CAE573D2325FA /* Pods-Yshipin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yshipin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Yshipin/Pods-Yshipin.debug.xcconfig"; sourceTree = "<group>"; };
 		4D033A871F8F419700D1E75D /* Yshipin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Yshipin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D033A8A1F8F419700D1E75D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4D033A8B1F8F419700D1E75D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -42,7 +59,6 @@
 		4D033A8E1F8F419700D1E75D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		4D033A911F8F419700D1E75D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4D033A931F8F419700D1E75D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		4D033A961F8F419700D1E75D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4D033A981F8F419700D1E75D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4D033A991F8F419700D1E75D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4D033A9F1F8F419700D1E75D /* YshipinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YshipinTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,6 +67,31 @@
 		4D033AAA1F8F419700D1E75D /* YshipinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YshipinUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D033AAE1F8F419700D1E75D /* YshipinUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YshipinUITests.m; sourceTree = "<group>"; };
 		4D033AB01F8F419700D1E75D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D033B381F8F474400D1E75D /* GFProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFProgressHUD.m; sourceTree = "<group>"; };
+		4D033B391F8F474400D1E75D /* GFProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFProgressHUD.h; sourceTree = "<group>"; };
+		4D033B3B1F8F477400D1E75D /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		4D033B3C1F8F5ADC00D1E75D /* WebRTC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebRTC.framework; path = Pods/WilddogWebRTC/WebRTC.framework; sourceTree = "<group>"; };
+		4D3A092B1F99EFE1003987D7 /* SignView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignView.m; sourceTree = "<group>"; };
+		4D3A092C1F99EFE1003987D7 /* SignView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignView.h; sourceTree = "<group>"; };
+		4D3A092F1F99F0D5003987D7 /* HMScanerCardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMScanerCardViewController.h; sourceTree = "<group>"; };
+		4D3A09301F99F0D5003987D7 /* HMScanerCardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMScanerCardViewController.m; sourceTree = "<group>"; };
+		4D3A09311F99F0D5003987D7 /* HMScanner.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = HMScanner.bundle; sourceTree = "<group>"; };
+		4D3A09321F99F0D5003987D7 /* HMScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMScanner.h; sourceTree = "<group>"; };
+		4D3A09331F99F0D5003987D7 /* HMScanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMScanner.m; sourceTree = "<group>"; };
+		4D3A09341F99F0D5003987D7 /* HMScannerBorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMScannerBorder.h; sourceTree = "<group>"; };
+		4D3A09351F99F0D5003987D7 /* HMScannerBorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMScannerBorder.m; sourceTree = "<group>"; };
+		4D3A09361F99F0D5003987D7 /* HMScannerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMScannerController.h; sourceTree = "<group>"; };
+		4D3A09371F99F0D5003987D7 /* HMScannerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMScannerController.m; sourceTree = "<group>"; };
+		4D3A09381F99F0D5003987D7 /* HMScannerMaskView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMScannerMaskView.h; sourceTree = "<group>"; };
+		4D3A09391F99F0D5003987D7 /* HMScannerMaskView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMScannerMaskView.m; sourceTree = "<group>"; };
+		4D3A093A1F99F0D5003987D7 /* HMScannerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMScannerViewController.h; sourceTree = "<group>"; };
+		4D3A093B1F99F0D5003987D7 /* HMScannerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMScannerViewController.m; sourceTree = "<group>"; };
+		4D3E231C1FB0205700542517 /* WilddogVideoCall.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WilddogVideoCall.framework; path = Pods/WilddogVideoCall/WilddogVideoCall.framework; sourceTree = "<group>"; };
+		4D3E231E1FB0206A00542517 /* WilddogVideoBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WilddogVideoBase.framework; path = Pods/WilddogVideoBase/WilddogVideoBase.framework; sourceTree = "<group>"; };
+		4D3E23211FB0208000542517 /* WilddogCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WilddogCore.framework; path = Pods/WilddogCore/WilddogCore.framework; sourceTree = "<group>"; };
+		4D3E23231FB0208900542517 /* WilddogAuth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WilddogAuth.framework; path = Pods/WilddogAuth/WilddogAuth.framework; sourceTree = "<group>"; };
+		4D72BE6A1F9770B900DBDEB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5D14BA9F1368BE09253DE560 /* Pods-Yshipin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yshipin.release.xcconfig"; path = "Pods/Target Support Files/Pods-Yshipin/Pods-Yshipin.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +99,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D3E23241FB0208900542517 /* WilddogAuth.framework in Frameworks */,
+				4D3E23221FB0208000542517 /* WilddogCore.framework in Frameworks */,
+				4D3E23201FB0207200542517 /* WebRTC.framework in Frameworks */,
+				4D3E231F1FB0206A00542517 /* WilddogVideoBase.framework in Frameworks */,
+				4D3E231D1FB0205700542517 /* WilddogVideoCall.framework in Frameworks */,
+				FE91ED5AE7BD841FF75C99C7 /* libPods-Yshipin.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +125,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		179ED6C6C11B347AF482BC58 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3E9E5B922D2CAE573D2325FA /* Pods-Yshipin.debug.xcconfig */,
+				5D14BA9F1368BE09253DE560 /* Pods-Yshipin.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		4D033A7E1F8F419700D1E75D = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +141,8 @@
 				4D033AA21F8F419700D1E75D /* YshipinTests */,
 				4D033AAD1F8F419700D1E75D /* YshipinUITests */,
 				4D033A881F8F419700D1E75D /* Products */,
+				179ED6C6C11B347AF482BC58 /* Pods */,
+				B63139CA33A1E418422457E7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,13 +159,19 @@
 		4D033A891F8F419700D1E75D /* Yshipin */ = {
 			isa = PBXGroup;
 			children = (
+				4D3A092E1F99F0D5003987D7 /* QRCode */,
+				4D72BE691F9770B900DBDEB3 /* LaunchScreen.storyboard */,
 				4D033A8A1F8F419700D1E75D /* AppDelegate.h */,
 				4D033A8B1F8F419700D1E75D /* AppDelegate.m */,
 				4D033A8D1F8F419700D1E75D /* ViewController.h */,
 				4D033A8E1F8F419700D1E75D /* ViewController.m */,
+				4D3A092C1F99EFE1003987D7 /* SignView.h */,
+				4D3A092B1F99EFE1003987D7 /* SignView.m */,
+				4D033B3B1F8F477400D1E75D /* PrefixHeader.pch */,
+				4D033B391F8F474400D1E75D /* GFProgressHUD.h */,
+				4D033B381F8F474400D1E75D /* GFProgressHUD.m */,
 				4D033A901F8F419700D1E75D /* Main.storyboard */,
 				4D033A931F8F419700D1E75D /* Assets.xcassets */,
-				4D033A951F8F419700D1E75D /* LaunchScreen.storyboard */,
 				4D033A981F8F419700D1E75D /* Info.plist */,
 				4D033A991F8F419700D1E75D /* main.m */,
 			);
@@ -132,6 +196,39 @@
 			path = YshipinUITests;
 			sourceTree = "<group>";
 		};
+		4D3A092E1F99F0D5003987D7 /* QRCode */ = {
+			isa = PBXGroup;
+			children = (
+				4D3A092F1F99F0D5003987D7 /* HMScanerCardViewController.h */,
+				4D3A09301F99F0D5003987D7 /* HMScanerCardViewController.m */,
+				4D3A09311F99F0D5003987D7 /* HMScanner.bundle */,
+				4D3A09321F99F0D5003987D7 /* HMScanner.h */,
+				4D3A09331F99F0D5003987D7 /* HMScanner.m */,
+				4D3A09341F99F0D5003987D7 /* HMScannerBorder.h */,
+				4D3A09351F99F0D5003987D7 /* HMScannerBorder.m */,
+				4D3A09361F99F0D5003987D7 /* HMScannerController.h */,
+				4D3A09371F99F0D5003987D7 /* HMScannerController.m */,
+				4D3A09381F99F0D5003987D7 /* HMScannerMaskView.h */,
+				4D3A09391F99F0D5003987D7 /* HMScannerMaskView.m */,
+				4D3A093A1F99F0D5003987D7 /* HMScannerViewController.h */,
+				4D3A093B1F99F0D5003987D7 /* HMScannerViewController.m */,
+			);
+			path = QRCode;
+			sourceTree = "<group>";
+		};
+		B63139CA33A1E418422457E7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4D3E23231FB0208900542517 /* WilddogAuth.framework */,
+				4D3E23211FB0208000542517 /* WilddogCore.framework */,
+				4D3E231E1FB0206A00542517 /* WilddogVideoBase.framework */,
+				4D3E231C1FB0205700542517 /* WilddogVideoCall.framework */,
+				4D033B3C1F8F5ADC00D1E75D /* WebRTC.framework */,
+				36E5A0ED0121248FA4452C5F /* libPods-Yshipin.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +236,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4D033AB31F8F419700D1E75D /* Build configuration list for PBXNativeTarget "Yshipin" */;
 			buildPhases = (
+				27B6D6B1962B60CD4CA77E78 /* [CP] Check Pods Manifest.lock */,
 				4D033A831F8F419700D1E75D /* Sources */,
 				4D033A841F8F419700D1E75D /* Frameworks */,
 				4D033A851F8F419700D1E75D /* Resources */,
+				FC5E5354F4816D4C65AFCD2D /* [CP] Embed Pods Frameworks */,
+				ADB10456E410988ABB886762 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -200,6 +300,11 @@
 					4D033A861F8F419700D1E75D = {
 						CreatedOnToolsVersion = 9.0;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 					4D033A9E1F8F419700D1E75D = {
 						CreatedOnToolsVersion = 9.0;
@@ -238,9 +343,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D033A971F8F419700D1E75D /* LaunchScreen.storyboard in Resources */,
 				4D033A941F8F419700D1E75D /* Assets.xcassets in Resources */,
+				4D72BE6B1F9770B900DBDEB3 /* LaunchScreen.storyboard in Resources */,
 				4D033A921F8F419700D1E75D /* Main.storyboard in Resources */,
+				4D3A093D1F99F0D5003987D7 /* HMScanner.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,14 +366,70 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		27B6D6B1962B60CD4CA77E78 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		ADB10456E410988ABB886762 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Yshipin/Pods-Yshipin-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC5E5354F4816D4C65AFCD2D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Yshipin/Pods-Yshipin-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4D033A831F8F419700D1E75D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				4D033A8F1F8F419700D1E75D /* ViewController.m in Sources */,
+				4D3A09401F99F0D5003987D7 /* HMScannerController.m in Sources */,
+				4D3A093F1F99F0D5003987D7 /* HMScannerBorder.m in Sources */,
+				4D033B3A1F8F474400D1E75D /* GFProgressHUD.m in Sources */,
+				4D3A09411F99F0D5003987D7 /* HMScannerMaskView.m in Sources */,
+				4D3A092D1F99EFE1003987D7 /* SignView.m in Sources */,
 				4D033A9A1F8F419700D1E75D /* main.m in Sources */,
+				4D3A093E1F99F0D5003987D7 /* HMScanner.m in Sources */,
+				4D3A09421F99F0D5003987D7 /* HMScannerViewController.m in Sources */,
 				4D033A8C1F8F419700D1E75D /* AppDelegate.m in Sources */,
+				4D3A093C1F99F0D5003987D7 /* HMScanerCardViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,10 +473,10 @@
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		4D033A951F8F419700D1E75D /* LaunchScreen.storyboard */ = {
+		4D72BE691F9770B900DBDEB3 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				4D033A961F8F419700D1E75D /* Base */,
+				4D72BE6A1F9770B900DBDEB3 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -374,6 +536,7 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				VALID_ARCHS = "arm64 armv7 armv7s armv7s";
 			};
 			name = Debug;
 		};
@@ -423,32 +586,74 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "arm64 armv7 armv7s armv7s";
 			};
 			name = Release;
 		};
 		4D033AB41F8F419700D1E75D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E9E5B922D2CAE573D2325FA /* Pods-Yshipin.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9YQC9372DL;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/WilddogWebRTC",
+					"$(PROJECT_DIR)/ShareSDK",
+					"$(PROJECT_DIR)/ShareSDK/Support/Optional",
+					"$(PROJECT_DIR)/ShareSDK/Support/PlatformConnector",
+					"$(PROJECT_DIR)/ShareSDK/Support/Required",
+					"$(PROJECT_DIR)/Required",
+					"$(PROJECT_DIR)/Pods/WilddogVideoCall",
+					"$(PROJECT_DIR)/Pods/WilddogVideoBase",
+					"$(PROJECT_DIR)/Pods/WilddogCore",
+					"$(PROJECT_DIR)/Pods/WilddogAuth",
+				);
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Yshipin/PrefixHeader.pch";
 				INFOPLIST_FILE = Yshipin/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = gfg.Yshipin;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sq3661;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
+				VALID_ARCHS = "arm64 armv7 armv6 armv7s";
 			};
 			name = Debug;
 		};
 		4D033AB51F8F419700D1E75D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D14BA9F1368BE09253DE560 /* Pods-Yshipin.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9YQC9372DL;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/WilddogWebRTC",
+					"$(PROJECT_DIR)/ShareSDK",
+					"$(PROJECT_DIR)/ShareSDK/Support/Optional",
+					"$(PROJECT_DIR)/ShareSDK/Support/PlatformConnector",
+					"$(PROJECT_DIR)/ShareSDK/Support/Required",
+					"$(PROJECT_DIR)/Required",
+					"$(PROJECT_DIR)/Pods/WilddogVideoCall",
+					"$(PROJECT_DIR)/Pods/WilddogVideoBase",
+					"$(PROJECT_DIR)/Pods/WilddogCore",
+					"$(PROJECT_DIR)/Pods/WilddogAuth",
+				);
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Yshipin/PrefixHeader.pch";
 				INFOPLIST_FILE = Yshipin/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = gfg.Yshipin;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sq3661;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
+				VALID_ARCHS = "arm64 armv7 armv6 armv7s";
 			};
 			name = Release;
 		};
